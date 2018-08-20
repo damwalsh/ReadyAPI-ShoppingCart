@@ -70,7 +70,7 @@ pipeline {
     }
     stage('Performance') {
       steps {
-        build 'ReadyAPI - Security'
+        build 'ReadyAPI Full Stack - Performance'
       }
     }
   }
